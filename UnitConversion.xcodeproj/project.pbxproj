@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5326766B2C4B7296001E8450 /* CustomPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326766A2C4B7296001E8450 /* CustomPickerView.swift */; };
+		5326766D2C4B734F001E8450 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326766C2C4B734F001E8450 /* Unit.swift */; };
+		532676702C4B73DB001E8450 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5326766F2C4B73DB001E8450 /* MainViewModel.swift */; };
 		5393BE3B2C36471500734734 /* UnitConversionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5393BE3A2C36471500734734 /* UnitConversionApp.swift */; };
-		5393BE3D2C36471500734734 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5393BE3C2C36471500734734 /* ContentView.swift */; };
+		5393BE3D2C36471500734734 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5393BE3C2C36471500734734 /* MainView.swift */; };
 		5393BE3F2C36471800734734 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5393BE3E2C36471800734734 /* Assets.xcassets */; };
 		5393BE432C36471800734734 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5393BE422C36471800734734 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5326766A2C4B7296001E8450 /* CustomPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerView.swift; sourceTree = "<group>"; };
+		5326766C2C4B734F001E8450 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		5326766F2C4B73DB001E8450 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		5393BE372C36471500734734 /* UnitConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5393BE3A2C36471500734734 /* UnitConversionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionApp.swift; sourceTree = "<group>"; };
-		5393BE3C2C36471500734734 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5393BE3C2C36471500734734 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		5393BE3E2C36471800734734 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5393BE402C36471800734734 /* UnitConversion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnitConversion.entitlements; sourceTree = "<group>"; };
 		5393BE422C36471800734734 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				5393BE3A2C36471500734734 /* UnitConversionApp.swift */,
-				5393BE3C2C36471500734734 /* ContentView.swift */,
+				5393BE3C2C36471500734734 /* MainView.swift */,
+				5326766F2C4B73DB001E8450 /* MainViewModel.swift */,
+				5326766A2C4B7296001E8450 /* CustomPickerView.swift */,
+				5326766C2C4B734F001E8450 /* Unit.swift */,
 				5393BE3E2C36471800734734 /* Assets.xcassets */,
 				5393BE402C36471800734734 /* UnitConversion.entitlements */,
 				5393BE412C36471800734734 /* Preview Content */,
@@ -139,7 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5393BE3D2C36471500734734 /* ContentView.swift in Sources */,
+				532676702C4B73DB001E8450 /* MainViewModel.swift in Sources */,
+				5326766B2C4B7296001E8450 /* CustomPickerView.swift in Sources */,
+				5326766D2C4B734F001E8450 /* Unit.swift in Sources */,
+				5393BE3D2C36471500734734 /* MainView.swift in Sources */,
 				5393BE3B2C36471500734734 /* UnitConversionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
